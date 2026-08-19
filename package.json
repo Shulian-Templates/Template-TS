@@ -9,6 +9,7 @@
   "scripts": {
     "start": "tsx src/server.ts",
     "dev": "tsx watch --ignore \"./data/**\" src/server.ts",
+    "build": "tsc",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
